@@ -1,0 +1,68 @@
+<!-- Определяем язык документа как русский -->
+<html lang="ru">
+	<head>
+		<!-- Указываем кодировку документа, чтобы поддерживать кириллические символы -->
+		<meta charset="UTF-8" />
+		<!-- Настраиваем адаптивность сайта: ширина равна ширине экрана устройства, масштаб 1:1 -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Заголовок страницы, который будет отображаться на вкладке браузера -->
+		<title>Галерея</title>
+		<!-- Подключаем внешний CSS-файл для стилизации страницы -->
+		<link rel="stylesheet" href="assets/css/styles.css" />
+	</head>
+	<body>
+		<!-- Шапка сайта -->
+		<header>
+			<!-- Навигационное меню -->
+			<nav>
+				<ul>
+					<!-- Список ссылок для перехода между страницами -->
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="services.html">Услуги</a></li>
+					<li><a href="gallery.html">Галерея</a></li>
+					<li><a href="reviews.html">Отзывы</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Основное содержимое страницы -->
+		<main class="gallery_main">
+			<!-- Заголовок страницы -->
+			<h1>Галерея</h1>
+			<!-- Краткое описание секции -->
+			<p>
+				Наши профессиональные фотографы снимут историю вашей любви в самых
+				красивых кадрах.
+			</p>
+
+			<!-- Галерея изображений -->
+			<section class="gallery">
+				<!-- Каждый элемент галереи содержит изображение -->
+				<div class="gallery-item">
+					<img src="assets/img/photo1.jpg" alt="Фото 1" />
+				</div>
+				<div class="gallery-item">
+					<img src="assets/img/photo2.jpg" alt="Фото 2" />
+				</div>
+				<div class="gallery-item">
+					<img src="assets/img/photo3.jpg" alt="Фото 3" />
+				</div>
+				<div class="gallery-item">
+					<img src="assets/img/photo4.jpg" alt="Фото 4" />
+				</div>
+				<div class="gallery-item">
+					<img src="assets/img/photo5.jpg" alt="Фото 5" />
+				</div>
+				<div class="gallery-item">
+					<img src="assets/img/photo6.jpg" alt="Фото 6" />
+				</div>
+			</section>
+		</main>
+
+		<!-- Подвал сайта -->
+		<footer>
+			<!-- Авторские права -->
+			<p>&copy; 2025 Свадебное агентство. Все права защищены.</p>
+		</footer>
+	</body>
+</html>

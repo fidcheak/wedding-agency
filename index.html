@@ -1,41 +1,74 @@
-<!DOCTYPE html>
-
+<!-- Определяем язык документа как русский -->
 <html lang="ru">
 	<head>
+		<!-- Устанавливаем кодировку UTF-8 для корректного отображения символов -->
 		<meta charset="UTF-8" />
+		<!-- Обеспечиваем адаптивность страницы на мобильных устройствах -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Appeal - Главная</title>
-		<link rel="stylesheet" href="./css/main.css" />
-		<link rel="stylesheet" href="./css/media.css" />
+		<!-- Заголовок страницы, отображаемый во вкладке браузера -->
+		<title>Свадебное агентство</title>
+		<!-- Подключаем файл стилей для оформления страницы -->
+		<link rel="stylesheet" href="assets/css/styles.css" />
 	</head>
-
 	<body>
-		<header class="header">
-			<div class="container">
-				<!-- header nav -->
-				<div class="header-nav">
-					<a href="#!" class="logo">APPEAL</a>
-
-					<nav class="nav">
-						<ul class="nav-list">
-							<li class="nav-item">
-								<a href="#!" class="nav-link">Главная</a>
-							</li>
-							<li class="nav-item">
-								<a href="#!" class="nav-link">Услуги</a>
-							</li>
-							<li class="nav-item">
-								<a href="#!" class="nav-link">Галерея</a>
-							</li>
-							<li class="nav-item">
-								<a href="#!" class="nav-link">Отзывы</a>
-							</li>
-						</ul>
-					</nav>
-				</div>
-			</div>
+		<!-- Шапка сайта -->
+		<header>
+			<!-- Навигационное меню -->
+			<nav>
+				<ul>
+					<!-- Пункты навигационного меню -->
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="services.html">Услуги</a></li>
+					<li><a href="gallery.html">Галерея</a></li>
+					<li><a href="reviews.html">Отзывы</a></li>
+				</ul>
+			</nav>
 		</header>
 
-		<script src="./js/main.js"></script>
+		<!-- Основное содержимое страницы -->
+		<main>
+			<!-- Герой-секция (баннер с основным посланием) -->
+			<section class="hero">
+				<div class="hero-content">
+					<!-- Главный заголовок страницы -->
+					<h1>Свадьба вашей мечты</h1>
+					<!-- Описание услуги -->
+					<p>Мы создаем незабываемые моменты и делаем ваш день особенным</p>
+					<!-- Кнопка для перехода на страницу услуг -->
+					<a href="services.html" class="btn">Узнать больше</a>
+				</div>
+			</section>
+
+			<!-- Раздел с информацией о компании -->
+			<section class="about">
+				<p>
+					Наше свадебное агентство специализируется на организации мероприятий
+					любого уровня. Мы предлагаем индивидуальный подход и внимание к каждой
+					детали. Наши специалисты помогут вам создать незабываемую атмосферу,
+					учитывая все ваши пожелания и предпочтения.
+				</p>
+
+				<!-- Блок слайдера изображений -->
+				<div class="slider">
+					<!-- Кнопка для переключения на предыдущий слайд -->
+					<button class="prev">&#10094;</button>
+					<!-- Изображения слайдера -->
+					<img src="assets/img/slider_1.jpg" class="active" alt="Слайд 1" />
+					<img src="assets/img/slider_2.jpg" alt="Слайд 2" />
+					<img src="assets/img/slider_3.jpg" alt="Слайд 3" />
+					<!-- Кнопка для переключения на следующий слайд -->
+					<button class="next">&#10095;</button>
+				</div>
+			</section>
+		</main>
+
+		<!-- Подвал страницы -->
+		<footer>
+			<!-- Авторские права -->
+			<p>&copy; 2025 Свадебное агентство. Все права защищены.</p>
+		</footer>
+
+		<!-- Подключение внешнего JavaScript-файла для работы слайдера -->
+		<script src="assets/js/script.js"></script>
 	</body>
 </html>

@@ -1,0 +1,102 @@
+<!-- Определяем язык документа как русский -->
+<html lang="ru">
+	<head>
+		<!-- Устанавливаем кодировку UTF-8 для поддержки кириллических символов -->
+		<meta charset="UTF-8" />
+		<!-- Настраиваем адаптивный дизайн страницы -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Заголовок страницы, который отображается во вкладке браузера -->
+		<title>Наши услуги</title>
+		<!-- Подключение внешнего CSS-файла для стилизации страницы -->
+		<link rel="stylesheet" href="assets/css/styles.css" />
+	</head>
+	<body>
+		<!-- Шапка сайта -->
+		<header>
+			<!-- Навигационное меню -->
+			<nav>
+				<ul>
+					<!-- Ссылки для навигации по сайту -->
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="services.html">Услуги</a></li>
+					<li><a href="gallery.html">Галерея</a></li>
+					<li><a href="reviews.html">Отзывы</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Основной контент страницы -->
+		<main class="service">
+			<!-- Заголовок страницы -->
+			<h1>Наши услуги</h1>
+			<p>
+				Мы предлагаем полный спектр услуг по организации свадебных мероприятий.
+			</p>
+
+			<!-- Раздел с описанием пакетов услуг -->
+			<section class="services-container">
+				<!-- Базовый пакет -->
+				<div class="service-card">
+					<h2>Базовый пакет</h2>
+					<p>Оптимальный выбор для небольшой уютной свадьбы.</p>
+					<ul>
+						<li>Консультация по организации</li>
+						<li>Выбор площадки</li>
+						<li>Базовое украшение</li>
+						<li>Работа координатора</li>
+					</ul>
+				</div>
+
+				<!-- Премиальный пакет -->
+				<div class="service-card premium">
+					<h2>Премиальный пакет</h2>
+					<p>Для тех, кто хочет идеальную свадьбу без забот.</p>
+					<ul>
+						<li>Все из базового пакета</li>
+						<li>Флористика и декор</li>
+						<li>Профессиональный фотограф</li>
+						<li>Живая музыка</li>
+						<li>Транспорт для молодоженов</li>
+					</ul>
+				</div>
+
+				<!-- Королевский пакет -->
+				<div class="service-card luxury">
+					<h2>Королевский пакет</h2>
+					<p>Роскошное мероприятие с вниманием к каждой детали.</p>
+					<ul>
+						<li>Все из премиального пакета</li>
+						<li>Персональный организатор</li>
+						<li>Эксклюзивное место проведения</li>
+						<li>Высокая кухня и бар</li>
+						<li>Шоу-программа с артистами</li>
+						<li>Фейерверк</li>
+					</ul>
+				</div>
+			</section>
+
+			<!-- Форма обратной связи -->
+			<section class="contact-form">
+				<h2>Свяжитесь с нами</h2>
+				<form action="#" method="post">
+					<label for="name">Ваше имя:</label>
+					<input type="text" id="name" name="name" required />
+
+					<label for="email">Ваш email:</label>
+					<input type="email" id="email" name="email" required />
+
+					<label for="message">Ваше сообщение:</label>
+					<textarea id="message" name="message" rows="4" required></textarea>
+
+					<button type="submit">Отправить</button>
+				</form>
+			</section>
+		</main>
+
+		<!-- Подвал сайта -->
+		<footer>
+			<!-- Авторские права -->
+			<p>&copy; 2025 Свадебное агентство. Все права защищены.</p>
+		</footer>
+	</body>
+</html>
